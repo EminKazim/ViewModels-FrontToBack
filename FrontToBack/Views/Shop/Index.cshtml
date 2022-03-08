@@ -1,0 +1,692 @@
+﻿
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<section id="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-sm-3 mt-5">
+                <div class="side">
+                    <h4>PRODUCT CATEGORIES</h4>
+                    <div class="list-group">
+                        <ul>
+                            <li>
+                                <input type="checkbox"> Beverages <i class="far fa-plus"></i>
+                                <ul class="ul d-none">
+                                    <li><input type="checkbox">Coffe</li>
+                                    <li><input type="checkbox">Craft Beer</li>
+                                    <li><input type="checkbox">Drink Boxes & Pouches</li>
+                                    <li><input type="checkbox">Milk & Plant-Based Milks</li>
+                                    <li><input type="checkbox">Soda & Pop</li>
+                                    <li><input type="checkbox">Sparking Water</li>
+                                    <li><input type="checkbox">Tea & kombucha</li>
+                                    <li><input type="checkbox">Water</li>
+                                    <li><input type="checkbox">Wine</li>
+                                </ul>
+                            </li>
+                            <li><input type="checkbox"> Biscuits & Snacks</li>
+                            <li>
+                                <input type="checkbox"> Breads & Bakery <i class="far fa-plus"></i>
+                                <ul class="ul d-none">
+                                    <li><input type="checkbox">Buns and Rolls</li>
+                                    <li><input type="checkbox">Cakes and Cupcakes</li>
+                                    <li><input type="checkbox">Cookies and Brownies</li>
+                                    <li><input type="checkbox">Donuts and Muffins</li>
+                                    <li><input type="checkbox">Order Specialty Cakes</li>
+                                    <li><input type="checkbox">Packaged Breads</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <input type="checkbox"> Breakfast & Dairy <i class="far fa-plus"></i>
+                                <ul class="ul d-none">
+                                    <li><input type="checkbox">Butter and Margarine</li>
+                                    <li><input type="checkbox">Cheese</li>
+                                    <li><input type="checkbox">Eggs Subtitutes</li>
+                                    <li><input type="checkbox">Honey</li>
+                                    <li><input type="checkbox">Marmalades</li>
+                                    <li><input type="checkbox">Milk & Flavoured Milk</li>
+                                    <li><input type="checkbox">Sour Cream and Dips</li>
+                                    <li><input type="checkbox">Yogurt</li>
+                                </ul>
+                            </li>
+                            <li><input type="checkbox"> Frozen Foods</li>
+                            <li>
+                                <input type="checkbox"> Fruits & Vegetables <i class="far fa-plus"></i>
+                                <ul class="ul d-none">
+                                    <li><input type="checkbox">Herbs & Seasonings</li>
+                                    <li><input type="checkbox">Packaged Produce</li>
+                                    <li><input type="checkbox">Part Trays </li>
+                                    <li><input type="checkbox">Cuts & Sprouts</li>
+                                    <li><input type="checkbox">Exotic Fruits & Veggies</li>
+                                    <li><input type="checkbox">Fresh Fruits</li>
+                                    <li><input type="checkbox">Fresh Vegetables</li>
+                                </ul>
+                            </li>
+                            <li><input type="checkbox"> Grocery & Staples</li>
+                            <li><input type="checkbox"> Household Needs</li>
+                            <li>
+                                <input type="checkbox"> Meats & Seadfood <i class="far fa-plus"></i>
+                                <ul class="ul d-none">
+                                    <li><input type="checkbox">Shrimp</li>
+                                    <li><input type="checkbox">Sliced Deli Meat</li>
+                                    <li><input type="checkbox">Wild Caught Fillets</li>
+                                    <li><input type="checkbox">Beef</li>
+                                    <li><input type="checkbox">Breakfast Sausage</li>
+                                    <li><input type="checkbox">Chicken</li>
+                                    <li><input type="checkbox">Crab and Shellfish</li>
+                                    <li><input type="checkbox">Dinner Sausage</li>
+                                    <li><input type="checkbox">Farm Raised Fillets</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="range-slider">
+                        <h4>FILTER BY PRICE</h4>
+                        <input class="range-slider__range" type="range" value="70" min="0" max="70">
+                        <span class="range-slider__value">70</span>
+                        <span class="ms-5">FILTER</span>
+                    </div>
+                </div>
+                <div class="status mt-5">
+                    <h4>PRODUCT STATUS</h4>
+                    <ul>
+                        <li><input type="checkbox"> In Stock</li>
+                        <li><input type="checkbox"> On sale</li>
+                    </ul>
+                </div>
+                <div class="brands">
+                    <h4>BRANDS</h4>
+                    <ul>
+                        <li><input type="checkbox"> Frito Lay (6)</li>
+                        <li><input type="checkbox"> Nespresso (10)</li>
+                        <li><input type="checkbox"> Oreo (6)</li>
+                        <li><input type="checkbox"> Quaker (8)</li>
+                        <li><input type="checkbox"> Welch's (7)</li>
+                    </ul>
+                </div>
+                <div class="gif">
+                    <img src="./assets/img/sidebar-banner.gif" alt="">
+                </div>
+            </div>
+            <div class="col-xl-8 col-sm-6 mt-5">
+                <div class="row">
+                    <div class="banner-image col-sm-4">
+                        <div class="text">
+                            <ul>
+                                <li>Organic Meals Prepared</li>
+                                <li>
+                                    <h2>
+                                        <strong>Deliverd to <span style="color:green"> your Home </span></strong>
+                                    </h2>
+                                </li>
+                                <li><span style="color:#71778e">Fully prepared & delivered nationwide.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-layout">
+                        <div class="row">
+                            <div class="col-xl-8 col-sm-1 mt-3">
+                                <ul>
+                                    <li><img src="./assets/icons/bars.png" alt=""></li>
+                                    <li><img src="./assets/icons/grid.png" alt=""></li>
+                                    <li><img src="./assets/icons/menu.png" alt=""></li>
+                                    <li><img src="./assets/icons/thumbnail.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="col-xl-2 col-sm-1">
+                                <h6 class="mt-3" style="cursor: pointer;">
+                                    Sort by latest <span class="fal fa-angle-down ms-2 fa-lg" id="1"></span>
+                                </h6>
+                                <div class="sort-categories d-none ">
+                                    <ul>
+                                        <li>Sort by popularity</li>
+                                        <li>Sort by average rating</li>
+                                        <li>Sort by latest</li>
+                                        <li>Sort by price: low to high</li>
+                                        <li>Sort by price: high to low</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-sm-1 mt-3">
+                                <h6 style="cursor: pointer;">
+                                    Show <strong>12</strong><span class="fal fa-angle-down fa-lg ms-2" id="2">
+                                </h6>
+                                <div class="count-categories d-none">
+                                    <ul>
+                                        <li>12</li>
+                                        <li>24</li>
+                                        <li>36</li>
+                                        <li>48</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3 mt-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>23%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">All Natural Italian-Style Chicken Meatballs</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $9.35 </del>
+                                            <p>$7.25</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3 mt-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>24%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-60-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Angie’s Boomchickapop Sweet & Salty Kettle Corn</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $4.29 </del>
+                                            <p>$3.29</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3 mt-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>19%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-46-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Field Roast Chao Cheese Creamy Original</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $24.00 </del>
+                                            <p>$19.50</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3 mt-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-45-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Foster Farms Takeout Crispy Classic Buffalo Wings</a>
+
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <p>$7.25</p>
+                                            <p>$49.99</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>10%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-59-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Blue Diamond Almonds Lightly Salted</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $11.68 </del>
+                                            <p>$10.58</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>12%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-58-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Blueberries – 1 Pint Package</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $4.49 </del>
+                                            <p>$3.99</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>29%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-57-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Fresh Organic Broccoli Crowns</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $6.77 </del>
+                                            <p>$4.85</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>19%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-50-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Chobani Complete Vanilla Greek Yogurt</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $5.49 </del>
+                                            <p>$4.49</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>21%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-56-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Fresh Brown Coconut</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $19.58 </del>
+                                            <p>$15.48</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>61%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-61-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">American Cheese Singles</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $8.29</del>
+                                            <p>$3.29</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-55-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">100% Butter French Croissants</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <p>$1.44</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-3">
+                        <div class="product-card">
+                            <div class="card">
+                                <div class="container">
+                                    <div class="discount">
+                                        <p>41%</p>
+                                    </div>
+                                    <div class="arrows-icon">
+                                        <i class="fal fa-arrows fa-lg"></i></i></i></i>
+                                    </div>
+                                    <div class="wishlist-icon"><i class="fa-solid fa-heart"></i></div>
+                                    <img class="card-img-top"
+                                         src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-54-346x310.jpg"
+                                         alt="Card image cap">
+                                    <div class="card-body">
+                                        <div class="first-card-content">
+                                            <a href="">Canada Dry Ginger Ale – 2 L Bottle</a>
+                                            <p>IN STOCK</p>
+                                        </div>
+                                        <div class="card-star">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked "></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star"></span>
+                                            <p>1</p>
+                                        </div>
+                                        <div class="card-product-price">
+                                            <del aria-hidden="true"> $6.45 </del>
+                                            <p>$3.85</p>
+                                        </div>
+                                        <div class="add-to-cart-btn">
+                                            <a href="#" class="btn btn-primary btn-lg active" role="button"
+                                               aria-pressed="true"
+                                               style="width: 100%; border-radius: 25px; height: 45px; background-color: #0a58ca; font-size: 16px;">
+                                                Add
+                                                to cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</section>
